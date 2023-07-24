@@ -1,0 +1,90 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: #000;
+    
+}
+
+/* Navbar */
+.nav_bar{
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin-bottom: 10rem;
+}
+.nav-container{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    color: #fff;
+}
+.logo_img{
+    height: 100px;
+}
+.nav-list{
+    color: #fff;
+}
+
+/* admin buttons */
+
+.movie-btn{
+    background: #E11299;
+    background-image: -webkit-linear-gradient(top, #E11299, #9A208C);
+    background-image: -moz-linear-gradient(top, #E11299, #9A208C);
+    background-image: -ms-linear-gradient(top, #E11299, #9A208C);
+    background-image: -o-linear-gradient(top, #E11299, #9A208C);
+    background-image: linear-gradient(to bottom, #E11299, #9A208C);
+   border-radius: 4;
+    border-radius: 4px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    margin: 15px 15px 15px 15px ;
+    border: none;
+    color: #fff;
+  }
+  
+  .movie-btn:hover {
+    background: #9A208C;
+    background-image: -webkit-linear-gradient(top, #9A208C, #E11299);
+    background-image: -moz-linear-gradient(top, #9A208C, #E11299);
+    background-image: -ms-linear-gradient(top, #9A208C, #E11299);
+    background-image: -o-linear-gradient(top, #9A208C, #E11299);
+    background-image: linear-gradient(to bottom, #9A208C, #E11299);
+    text-decoration: none;
+    padding: 25px 25px 25px 25px;
+    margin: 15px 15px 15px 15px ;
+    border: none;
+    color: #fff;
+    transition: 0.9ms;
+  }
+ .AddMovie{
+    text-decoration: none;
+    color: #fff;
+
+
+  }
+  /* main con */
+
+.main-container
+{
+   margin: 0;
+   height:100vh;
+   width: 100%;
+   /* background-image: linear-gradient(to bottom,#171717,#444444,url(img1.jpg)); */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.568),rgba(128, 128, 128, 0.24)),url("admin.jpg");
+   /* background-image: url("admin.jpg"); */
+   /* background-image: linear-gradient(#1e5128a4,#4d9f3d5b),url("..\\images\\login page\\img1.png"); */
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.row
+{
+    margin-top: 6rem;
+}

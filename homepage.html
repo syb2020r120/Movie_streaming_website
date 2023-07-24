@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blume - Watch trending Movies and Web Series</title>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/6d45926cf6.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/homepage.css">
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;900&family=Quicksand&family=Red+Hat+Display&family=Sacramento&family=Source+Sans+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg nav_bar navbar-dark sticky-top">
+    <div class="nav-container">
+    <a class="navbar-brand" href="index.html">
+        <img src="images\login page\logo.png" alt="logo" class="logo_img">
+    </a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    
+    <ul class="navbar-nav ms-auto nav-list">
+        <li class="nav-item">
+            <a class= "nav-link" href="index.html">Home</a></li>
+        <li class="nav-item">
+            <a class= "nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Generes
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Action.html">Action</a></li>
+            <li><a class="dropdown-item" href="thriller.html">Thriller</a></li>
+            <li><a class="dropdown-item" href="drama.html">Drama</a></li>
+            <li><a class="dropdown-item" href="horror.html">Horror</a></li>
+            <li><a class="dropdown-item" href="romantic.html">Romance</a></li>
+            <li><a class="dropdown-item" href="comedy.html">Comedy</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <form action="homepage.html" method="get" class="search-bar">
+            <input type="text" placeholder="search anything" name="q" />
+            <button type="submit" id="search_btn" title="Search-Button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </li>
+      
+        
+    </ul>
+    </div>
+    </div>
+</nav>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay_gradient">
+            <img src="images\\homepage\\gaslight.jpg" class="d-block  carousel_img" alt="...">
+          </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="heading_4">Gaslight</h4>
+              <p>A paraplegic women return home to find her estranged father dead, her family <br> disbelieving her sanity. Which version of the truth is real?</p>
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <div class="overlay_gradient">
+            <img src="images\\homepage\\farzi.jpg" class="d-block  carousel_img" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="heading_4">Farzi</h4>
+              <p>An artist who gets pulled into the murky high stakes of a con job and a fiery task force officer on the mission<br> to rid the country of his menaces in a fast-paced, edgy one-of-a-kind thriller.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="overlay_gradient">
+            <img src="images\\homepage\\rrr.jpg" class="d-block  carousel_img" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="heading_4">RRR</h4>
+              <p>A fictitious story about two legendary revolutionaries and their journey away from home<br> before they started fighting for their country in the 1920s.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="overlay_gradient">
+            <img src="images\\homepage\\night manager.jpg" class="d-block  carousel_img" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="heading_4">The night manager</h4>
+              <p>Follows Shaan Sengupta, an ex-soldier, who must infiltrate an arms dealer's<br> inner circle to bring down his empire of war.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="overlay_gradient">
+            <img src="images\\homepage\\sitaramam.jpg" class="d-block  carousel_img" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="heading_4">Sita Ramam</h4>
+              <p>An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl<br> named Sita. He meets her and love blossoms between them.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="overlay_gradient">
+            <img src="images\\homepage\\wedenesday_n.jpg" class="d-block carousel_img" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="heading_4">Wedenesday</h4>
+              <p>Smart, sarcastic and a little dead inside, Wednesday Addams investigates a murder spree while<br> making new friends — and foes — at Nevermore Academy.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev carousel_button" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next carousel_button" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <center>
+      <div class="movie_generes">
+        <h2 class="heading_2 font-effect-fire">Generes</h2>
+        <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-6">
+        <a href="Action.html"><button type="button" class="mov_gen_btn">Action</button></a>
+      </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+        <a href="thriller.html"><button type="button" class="mov_gen_btn">Thriller</button></a>
+      </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+        <a href="drama.html"><button type="button" class="mov_gen_btn">Drama</button></a>
+      </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+        <a href="horror.html"><button type="button" class="mov_gen_btn">Horror</button></a>
+      </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+       <a href="romantic.html"> <button type="button" class="mov_gen_btn">Romance</button></a>
+      </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+       <a href="comedy.html"> <button type="button" class="mov_gen_btn">Comedy</button></a>
+      </div>
+      </div>
+      </div>
+    </center>
+
+    <form action="showmovie" method="get" style="margin-left:40%">
+      <input type="Submit" class="mov_gen_btn" value="New Movies">
+  </form>
+
+    <center>
+      <div class="trending-now">
+        <h2 class="heading_2 h_2 font-effect-fire">Trending Now</h2>
+        
+        <div class="movies-list">
+          <button class="prev_btn" title="btn" value="<" id="prev_btn">
+            
+            <
+          </button>
+
+
+          <button class="nxt_btn" title="btn" value=">"  id="nxt_btn">
+            
+            >
+          </button>
+
+          <div class="card-container" id="card-container">
+            <div class="card">
+            <img src="images\\homepage\\Gaslight_n.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="horror.html">
+                Gaslight</a>
+              </h2>
+              <h6 class="des">A paraplegic women return home to find her estranged father dead, her family <br> disbelieving her sanity. Which version of the truth is real?</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\rrr_n.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                RRR
+              </h2>
+              <h6 class="des">A fictitious story about two legendary revolutionaries and their journey away from home<br> before they started fighting for their country in the 1920s.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\Kantara.jpeg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                Kantara
+              </h2>
+              <h6 class="des">A fiery young man clashes with an unflinching forest officer in a south Indian village where spirituality, fate and folklore rule the lands.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\tjmm1.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="romantic.html">
+                  Tu jhoothi mai Makkar</a>
+              </h2>
+              <h6 class="des">Madness ensues when a `player` in the world of romantic relationships finds a girl who`s a worthy opponent. </h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\bhoolbhulaia2.webp" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="horror.html">
+                  bhool Bhulaiyaa 2</a>
+              </h2>
+              <h6 class="des">When strangers Reet and Ruhan cross paths, their journey leads to an abandoned mansion and a dreaded spirit who has been trapped for 18 years.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\atarangi re.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                Atarangi re
+              </h2>
+              <h6 class="des">A Tamil boy meets a girl from Bihar, what follows is a love story for the ages. A non-linear narrative of two romances running in parallel from different timelines.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\sitaramam1.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="romantic.html">
+                  Sitaramam</a>
+              </h2>
+              <h6 class="des">An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl named Sita. He meets her and love blossoms between them.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\ramsetu.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="action.html">
+                  Ram Setu</a>
+              </h2>
+              <h6 class="des">An atheist archaeologist turned believer must race against time to prove the true existence of the legendary Ram Setu before evil forces destroy the pillar of India's heritage</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\m3gan.avif" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="horror.html">
+                  M3gan</a>
+              </h2>
+              <h6 class="des">A robotics engineer at a toy company builds a life-like doll that begins to take on a life of its own</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\SM.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                Spider-Man: No Way Home
+              </h2>
+              <h6 class="des">With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.</h6>
+            </div>
+          </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+      
+    </center>
+
+    <center>
+      <hr class="hr-line"></center>
+
+    <!-- Recommended Section -->
+    <center>
+
+      <div class="trending-now">
+        <h2 class="heading_2 h_2 font-effect-fire">Recommended for you</h2>
+        
+        <div class="movies-list">
+          <button class="prev_btn" title="btn" value="<" id="prev-btn" >
+            
+            <
+          </button>
+
+
+          <button class="nxt_btn" title="btn" value=">"  id="nxt-btn">
+            
+            >
+          </button>
+
+          <div class="card-container" id="card_container">
+            <div class="card">
+            <img src="images\\homepage\\rrr_n.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                RRR
+              </h2>
+              <h6 class="des">A fictitious story about two legendary revolutionaries and their journey away from home before they started fighting for their country in the 1920s.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\2_States.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="romantic.html">
+                  Two States</a>
+              </h2>
+              <h6 class="des">The story is about a couple Krish and Ananya, who hail from two states of India, Punjab and Tamil Nadu, respectively, who are deeply in love and want to marr</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\varisu.avif" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                Varisu
+              </h2>
+              <h6 class="des">Vijay Rajendran is a happy to-go lucky man. Things change when his father becomes terminally ill, and he is left to manage his business empire.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\sitaramam1.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="romantic.html">
+                  Sitaramam</a>
+              </h2>
+              <h6 class="des">An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl<br> named Sita. He meets her and love blossoms between them.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\night manager1.avif" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                The Night manager
+              </h2>
+              <h6 class="des">Follows Shaan Sengupta, an ex-soldier, who must infiltrate an arms dealer's<br> inner circle to bring down his empire of war.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\Kantara.jpeg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                Kantara
+              </h2>
+              <h6 class="des">A fiery young man clashes with an unflinching forest officer in a south Indian village where spirituality, fate and folklore rule the lands.
+              </h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\bhoolbhulaia2.webp" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="horror.html">
+                  Bhool Bhulaiyaa 2</a>
+              </h2>
+              <h6 class="des">When strangers Reet and Ruhan cross paths, their journey leads to an abandoned mansion and a dreaded spirit who has been trapped for 18 years.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\avatar.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                Avatar
+              </h2>
+              <h6 class="des"></h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\Drishyam2.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="thriller.html">
+                  Drishyam 2</a>
+              </h2>
+              <h6 class="des">A gripping tale of an investigation and a family which is threatened by it. Will Vijay Salgaonkar be able to protect his family this time?</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\alladin.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                Aladdin
+              </h2>
+              <h6 class="des">A kindhearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.</h6>
+            </div>
+          </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </center>
+  
+   
+
+    <center>
+      <hr class="hr-line"></center>
+
+    <!-- Web Series -->
+
+    <center>
+
+      <div class="trending-now">
+        <h2 class="heading_2 h_2 font-effect-fire">Web Series</h2>
+        
+        <div class="movies-list">
+          <button class="prev_btn" title="btn" value="<" id="prevbtn" onclick="clickHere()">
+            
+            <
+          </button>
+
+
+          <button class="nxt_btn" title="btn" value=">"  id="nxtbtn" onclick="clickHere()">
+            
+            >
+          </button>
+
+          <div class="card-container" id="card__container">
+            <div class="card">
+            <img src="images\\homepage\\wedenesday_1.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="wedenesday.html">
+                  Wedenesday</a>
+              </h2>
+              <h6 class="des">Smart, sarcastic and a little dead inside, Wednesday Addams investigates a murder spree while<br> making new friends — and foes — at Nevermore Academy.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\squid game.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="drama.html">
+                  Squid Game</a>
+              </h2>
+              <h6 class="des">Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes. A survival game that has a whopping 45.6 billion-won prize at stake</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\farzi1.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="drama.html">
+                  Farzi</a>
+              </h2>
+              <h6 class="des">
+                An artist who gets pulled into the murky high stakes of a con job and a fiery task force officer on the mission to rid the country of his menaces in a fast-paced, edgy one-of-a-kind thriller.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\friend.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="drama.html">
+                  Friends</a>
+              </h2>
+              <h6 class="des">This hit sitcom follows the merry misadventures of six 20-something pals as they navigate the pitfalls of work, life and love in 1990s Manhattan.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\goblin.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="drama.html">
+                  Goblin: The Lonely and Great God</a>
+              </h2>
+              <h6 class="des">In his quest for a bride to break his immortal curse, Dokkaebi, a 939-year-old guardian of souls, meets a grim reaper and a sprightly student with a tragic past.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\heirs.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="drama.html">
+                  The Heirs</a>
+              </h2>
+              <h6 class="des">After a chance encounter in LA, two teens from different social backgrounds reunite at an exclusive high school attended by Korea's über rich.
+              </h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\night manager1.avif" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="drama.html">
+                  The Night Manager</a>
+              </h2>
+              <h6 class="des">Follows Shaan Sengupta, an ex-soldier, who must infiltrate an arms dealer's<br> inner circle to bring down his empire of war.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\rocket_boys.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="drama.html">
+                  The Rocket Boys</a>
+              </h2>
+              <h6 class="des">The story of two extraordinary men, Dr. Homi Jehangir Bhabha and Dr. Vikram Ambalal Sarabhai, who created history while building India's future.</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\BP.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="business_proposal.html">
+                  Business Proposal</a>
+              </h2>
+              <h6 class="des">In disguise as her friend, Ha-ri shows up to a blind date to scare him away. But plans go awry when he turns out to be her CEO - and makes a proposal</h6>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images\\homepage\\MVB.jpg" alt="" class="card-img">
+            <div class="card-body">
+              <h2 class="name">
+                <a href="drama.html">
+                  Man Vs Bee</a>
+              </h2>
+              <h6 class="des">A man finds himself at war with a bee while housesitting a luxurious mansion. Who will win, and what irreparable damage will be done in the process?</h6>
+            </div>
+          </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </center>
+
+<center>
+<hr class="hr-line"></center>
+
+    <!-- feedback form -->
+    <div class="feedback-form">
+      <button class="btn" type="button"><a href="feedback.html"><i class="fa-solid fa-comments"></i>  Feedback </a></button>
+</div>
+    <!-- javaScript -->
+    <script src="js\homepage.js"></script>
+</body>
+</html>

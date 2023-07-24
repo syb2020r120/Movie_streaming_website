@@ -1,0 +1,35 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: #000;
+    
+}
+
+/* Navbar */
+.nav_bar{
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    padding: 0;
+}
+.nav-container{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    color: #fff;
+}
+.logo_img{
+    height: 100px;
+}
+.nav-list{
+    color: #fff;
+}
+.hr-line{
+    color:#000;
+    height: 10px;
+    width: 90%;
+    border-bottom: solid 3px #ffffff;
+
+  }

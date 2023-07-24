@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blume - Watch trending Movies and Web Series</title>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/6d45926cf6.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/drama.css">
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;900&family=Quicksand&family=Red+Hat+Display&family=Sacramento&family=Source+Sans+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <script src="js/playmovie.js"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg nav_bar navbar-dark sticky-top">
+        <div class="nav-container">
+        <a class="navbar-brand" href="index.html">
+            <img src="images\login page\logo.png" alt="logo" class="logo_img">
+        </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        
+        <ul class="navbar-nav ms-auto nav-list">
+            <li class="nav-item">
+                <a class= "nav-link" href="homepage.html">Home</a></li>
+            <li class="nav-item">
+                <a class= "nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Generes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Action.html">Action</a></li>
+                  <li><a class="dropdown-item" href="thriller.html">Thriller</a></li>
+                  <li><a class="dropdown-item" href="drama.html">Drama</a></li>
+                  <li><a class="dropdown-item" href="horror.html">Horror</a></li>
+                  <li><a class="dropdown-item" href="romantic.html">Romance</a></li>
+                  <li><a class="dropdown-item" href="comedy.html">Comedy</a></li>
+                </ul>
+              </li>
+            
+        </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="main_container">
+        <center>
+        <h1 class="heading1 font-effect-fire">Horror Movies</h1>
+        </center>
+
+        <center>
+            <div class="dramaList">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/homepage/bhoolbhulaia2.webp" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Bhool Bhulaiyaa 2</h5>
+                              <a href="#video-container" class="btn" onclick="displayVideo('https:/www.youtube.com/embed/5GwYCoL5vws','Bhool Bhulaiyaa 2')">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/homepage/m3gan.avif" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">M3GAN</h5>
+                              <a href="#video-container" class="btn" onclick="displayVideo('https:/drive.google.com/file/d/141Tg_1eXDYeEI0u6OPSwyeIVDneXmuBe/preview','M3GAN')">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/homepage/gaslight_nn.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Gaslight</h5>
+                              
+                              <a href="#video-container" class="btn" onclick="displayVideo('https:/www.youtube.com/embed/bA00GJQbS1s','Gaslight')">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/homepage/stree.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Stree</h5>
+                             
+                              <a href="#video-container" class="btn" onclick="displayVideo('https:/www.youtube.com/embed/gzeaGcLLl_A','Stree')">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/homepage/laxmii.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Laxmii Bomb</h5>
+                            
+                              <a href="#video-container" class="btn" onclick="displayVideo('https:/www.youtube.com/embed/AzTYIiRYmv0','Laxmii Bomb')">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/homepage/anabell.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Anabell</h5>
+                              <a href="#video-container" class="btn" onclick="displayVideo('https:/www.youtube.com/embed/XAh2FujZ-0g','Anabell Comes Home')">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/homepage/conj.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">The Conjuring</h5>
+                             
+                              <a href="#video-container" class="btn" onclick="displayVideo('https:/www.youtube.com/embed/k10ETZ41q5o ','The Conjuring')">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/homepage/bh.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Bhoot</h5>
+                              
+                              <a href="#video-container" class="btn" onclick="displayVideo('https:/www.youtube.com/embed/ELcRnZ3kP08','Bhoot')">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </center>
+    </div>
+
+    <center>
+        <hr class="hr-line">
+    </center>
+
+        <h1 id="video-container-h1"></h1>
+        <center>
+    <div id="video-container">
+        
+    </div>
+</center>
+<center>
+    <hr class="hr-line"></center>
+    
+        <!-- feedback form -->
+        <div class="feedback-form">
+          <button class="btnn" type="button"><a href="feedback.html"><i class="fa-solid fa-comments"></i>  Feedback </a></button>
+    </div>
+</body>
+</html>
+
+

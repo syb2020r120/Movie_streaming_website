@@ -1,0 +1,76 @@
+* {
+    font-family: "Quicksand", sans-serif;
+  }
+  body {
+    background-color: #000;
+  }
+  
+  /* Navbar */
+  .nav_bar {
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    padding: 0;
+  }
+  .nav-container {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    color: #fff;
+  }
+  .logo_img {
+    height: 100px;
+  }
+  .nav-list {
+    color: #fff;
+  }
+  /* main- con  */
+.main-con{
+  height: 80vh;
+  width: 80%;
+  align-items: center;
+  /* border: #fff solid 1px; */
+  margin: 5% auto 5% auto;
+  padding: 5rem auto 5rem auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.87),rgba(82, 76, 76, 0.468)),url("..\\images\\login page\\img4.webp");
+  background-size: cover ;
+  color: aliceblue;
+  font-size: 2rem;
+  font-family: "Sofia", sans-serif;
+}
+.row
+{
+  padding: 5rem auto 5rem auto;
+}
+.colGrid{
+  margin: 25vh auto 25vh auto;
+}
+.colGrid button{
+  background: #FBCAFF;
+  background-image: linear-gradient(to bottom, #FBCAFF, #FC28FB);
+  text-decoration: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+.colGrid button:hover{
+    background: #FC28FB;
+
+    background-image: linear-gradient(to bottom, #FC28FB, #FBCAFF);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+.colGrid span{
+  font-size: 2.5rem;
+  font-family: "Sofia", sans-serif;
+
+}

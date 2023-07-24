@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blume - Watch trending Movies and Web Series</title>
+    <link rel="stylesheet" href="css\signup.css">
+    <link rel="stylesheet" href="css\popup.css">
+    <script src="https://kit.fontawesome.com/6d45926cf6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+    <nav class="nav_bar">
+      <div class="logo_class">
+            <a href="index.html">
+              <img src="images\login page\logo.png" alt="logo" class="logo_img">
+            </a>
+      </div>
+      <div class="nav-section">
+        <ul class="ul-nav-section">
+          <li>
+            <a href="index.html" class="home-abt">
+                Home
+            </a>
+            </li>
+            <li>
+              <a href="about.html" class="home-abt">
+                About
+              </a>
+            </li>
+      </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="form-box">
+        <h1 id="title">Sign Up</h1>
+        <form action="reg" method="post">
+          <div class="input-group">
+
+            <div class="input-field" id="nameField">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="enter name" name="user_name">
+            </div>
+            <div class="input-field" id="mobNo">
+              <i class="fa-solid fa-mobile"></i>
+              <input type="tel" placeholder="mobile number" name="user_mobile" pattern="[0-9]{10}">
+            </div>
+
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="enter email" name="user_email">
+            </div>
+
+            <div class="input-field">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="enter password" name="user_password">
+            </div>
+
+            <p>Lost password <a href="#">Click Here!</a></p>
+
+            <div class="submit-button">
+              <button type="submit" onclick="openPopup()" name="" class="btn-submit">Submit</button>
+              <div class="popup" id="popup">
+                <img src="images\404-tick.png" />
+                <h2>Thank You 👍</h2>
+                <p>ohh..🥳Signed up Successfully done!!</p>
+                <button type="button" onclick="closePopup()">Ok</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-field">
+            <button type="button" class="btn" id="signupBtn">
+             <a href="signup.html"> Sign up </a>
+            </button>
+
+            <button type="button" class="btn " id="signinBtn">
+             <a href="login_user.html">Login</a> 
+            </button>
+          </div>
+
+        </form>
+      </div>
+  </div>
+  
+  <script src="js/script.js"></script>
+
+</body>
+</html>
